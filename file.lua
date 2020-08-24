@@ -1,0 +1,1 @@
+-- file.lua 文件末尾注释-- file.lua 文件末尾注释--test
