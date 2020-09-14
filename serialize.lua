@@ -12,7 +12,7 @@ function serialize(o)
             serialize(v)
             io.write(",\n")
         end
-        io.write("}\n")
+        io.write("}")
     else
         error("cannot serialize a " .. type(o))
     end
