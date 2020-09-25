@@ -22,14 +22,7 @@ end
 ---@return string
 ---@param t table
 function prefix(t)
-    local ret = {}
-    for _,v in ipairs(t) do
-        table.insert(ret, v)
-        table.insert(ret, " ")
-    end
-    table.remove(ret)
-    local pre = table.concat(ret)
-    return pre
+    return table.concat(t, " ")
 end
 
 local statetab = {}
